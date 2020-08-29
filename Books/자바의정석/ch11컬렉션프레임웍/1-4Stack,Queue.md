@@ -87,6 +87,8 @@ public class PriorityQueueExam {
 - Deque의 조상은 Queue이며, 구현체로 ArrayDeque, LinkedList가 있다
 - 덱은 `스택과 큐를 하나로 합쳐놓은 것`과 같으며 스택으로 사용할 수도, 큐로 사용할 수도 있다
 
+<img src="https://user-images.githubusercontent.com/40673012/91626911-098dd600-e9ee-11ea-9042-e3e9c0f7c113.jpg" width="90%"></img>
+
 |Deque|Queue|Stack|
 |-|-|-|
 |offerLast() | offer() | push() |
