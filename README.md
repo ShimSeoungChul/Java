@@ -90,7 +90,16 @@ $ git show v1.0.0 <br />
 - git remote: 등록된 리모트 저장소 이름 확인
 - git remote -v: 등록된 저장소 이름과 URL 표시
 - git remote add 리모트이름 경로: 새로운 리모트를 추가한다.
-- git remote show 리모트이름 : 새로운 리모트를 추가한다.
+- git remote show 리모트이름 : 모든 리모트 경로의 branch와 정보를 표시한다.
+- git remote rm 리모트이름: 리모트 경로를 제거한다.
+
+▶ 파일을 관리할 원격 저장소를 추가한다.
+$ git remote add origin https://github.com/ShimSeoungChul/software-engineering-assignment2.git
+
+### push
+-
+
+▶  
 
 ## 명령어표
 |명령어|사용여부|사용위치|
@@ -102,3 +111,4 @@ $ git show v1.0.0 <br />
 |commit|o|[commit 사용 위치](#commit)|
 |tag|o|[tag 사용 위치](#tag)|
 |remote|o|[remote 사용 위치](#remote)|
+|push|o|[push 사용 위치](#push)|
