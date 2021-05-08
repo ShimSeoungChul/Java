@@ -45,7 +45,8 @@ $ git config --global user.name "Shim Seoung Chul"
 # 명령어표
 |명령어|사용여부|사용위치|
 |--|--|--|
-||o||
-||o||
-||o||
-||o||
+|config|o|[config 사용 위치](#config)|
+|init|o|[init 사용 위치](#init)|
+|add|o|[add 사용 위치](#add)|
+|status|o|[status 사용 위치](#status)|
+|commit|o|[commit 사용 위치](#commit)|
