@@ -5,6 +5,7 @@
 - 세부 시나리오 내용은 앞으로 등장하는 ▶ 기호를 통해 설명한다. 
 
 <br/>
+
 ### config 
 - config 명령어는 git의 사용 환경을 설정하는데 사용한다. <br />
 
@@ -24,6 +25,7 @@ $ git config --list <br />
 <img width="543" alt="스크린샷 2021-05-08 오후 6 38 34" src="https://user-images.githubusercontent.com/40673012/117534478-9896c780-b02c-11eb-9ba7-1a2f079ce43c.png">
 
 <br/>
+
 ### init  
 - init 명령어는 디렉토리를 git 저장소로 만든다. <br/>
 
@@ -34,6 +36,7 @@ $ git init
 <img width="542" alt="스크린샷 2021-05-08 오후 6 42 39" src="https://user-images.githubusercontent.com/40673012/117534609-2b376680-b02d-11eb-9478-b59a9c2a1274.png">
 
 <br/>
+
 ### add 
 - add 명령어는 작업 디렉토리의 변경 내용을 스테이지 영역에 추가하는 명령어다. 이것을 스테이징이라고한다.
 - 스테이징은 깃에게 버전 만들 준비를 하라고 알려주는 것을 의미한다. <br/>
@@ -53,6 +56,7 @@ $ git add README.md  <br />
 <img width="538" alt="스크린샷 2021-05-08 오후 7 22 49" src="https://user-images.githubusercontent.com/40673012/117535869-c848ce00-b032-11eb-9f23-1b9d82bc0461.png">
 
 <br/>
+
 ### status
 - 파일의 상태를 확인한다. <br/>
 
@@ -63,6 +67,7 @@ $ git status  <br />
 <img width="527" alt="스크린샷 2021-05-08 오후 7 24 28" src="https://user-images.githubusercontent.com/40673012/117535895-02b26b00-b033-11eb-9e92-038854b01ba9.png">
 
 <br/>
+
 ### commit 
 - 앞에서 add 명령어를 통해 스테이징한 파일의 버전을 만드는 것을 커밋이라고한다. 
 - 커밋할 때는 그 버전에 변경사항을 메시지로 함께 기록한다.<br/>
@@ -77,6 +82,7 @@ $ git commit -m "Markdown 정리 자료 추가"
 <img width="534" alt="스크린샷 2021-05-08 오후 7 27 13" src="https://user-images.githubusercontent.com/40673012/117535954-65a40200-b033-11eb-840d-e9d41ecb584f.png">
 
 <br/>
+
 ### tag
 - 커밋을 참조하기 쉽도록 알기 쉬운 이름을 붙이는 기능이다.
 
@@ -90,6 +96,8 @@ $ git show v1.0.0 <br />
 
 <img width="539" alt="스크린샷 2021-05-08 오후 7 31 51" src="https://user-images.githubusercontent.com/40673012/117536079-0b577100-b034-11eb-99a6-fb7b6f58fe6a.png">
 
+<br/>
+
 ### remote
 - 프로젝트의 리모트 저장소(ex.깃헙)를 관리하는 명령어다.
 - git remote: 등록된 리모트 저장소 이름 확인
@@ -100,6 +108,9 @@ $ git show v1.0.0 <br />
 
 ▶ 파일을 관리할 원격 저장소를 추가한다.
 $ git remote add origin https://github.com/ShimSeoungChul/software-engineering-assignment2.git
+
+
+<br/>
 
 ### push
 - 원격 저장소에 코드 변경사항을 업로드하는 명령어다. <br/>
@@ -114,6 +125,7 @@ $ git push -u origin master
 <img width="538" alt="스크린샷 2021-05-08 오후 7 52 06" src="https://user-images.githubusercontent.com/40673012/117536602-def12400-b036-11eb-853a-e44f7a470efd.png">
 
 <br/>
+
 ### clone
 - 클라이언트 상에 아무것도 없을 때 서버의 프로젝트를 내려받는 명령어다.<br/>
 
@@ -126,6 +138,8 @@ $ git clone https://github.com/ShimSeoungChul/software-engineering-assignment2.g
 ▶ 원격 저장소에서 내려 받은 내용이 들어있는 디렉토리로 이동한다.
 $ cd software-engineering-assignment2
 
+<br/>
+
 ### branch
 - 브랜치는 버전 관리 시스템에서 나무 가지(브랜치)처럼 여러 갈래로 퍼지는 데이터 흐름을 말한다.
 - branch 명령어는 이러한 분기(브랜치)를 관리하는 역할을 한다.
@@ -135,6 +149,7 @@ $ cd software-engineering-assignment2
 $ git branch gfm
 
 <br/>
+
 ### checkout
 - 브램치를 전환하는 명령어다.<br/><br/>
 
@@ -156,6 +171,7 @@ $ git commit -m "GFM 튜토리얼 추가" <br />
 <img width="541" alt="스크린샷 2021-05-08 오후 8 04 37" src="https://user-images.githubusercontent.com/40673012/117536887-9f2b3c00-b038-11eb-8253-4e2ca7b0f244.png">
 
 <br/>
+
 ### log
 - 저장소의 커밋 히스토리를 조회한다. <br/><br/>
 
@@ -165,6 +181,7 @@ $ git log
 <img width="545" alt="스크린샷 2021-05-08 오후 8 07 51" src="https://user-images.githubusercontent.com/40673012/117536968-1234b280-b039-11eb-99ec-43da7917ad4b.png">
 
 <br/>
+
 ### reset 
 - 커밋 버전을 이전 버전으로 되돌린다. <br/>
 
@@ -199,6 +216,7 @@ $ git checkout master <br />
 <img width="533" alt="스크린샷 2021-05-08 오후 8 20 16" src="https://user-images.githubusercontent.com/40673012/117537275-cedb4380-b03a-11eb-800d-db39014ad04a.png">
 
 <br />
+
 ### merge
 - 브랜치를 병합하는 명령어다. <br />
 
@@ -222,6 +240,7 @@ $ git push
 <img width="533" alt="스크린샷 2021-05-08 오후 8 26 10" src="https://user-images.githubusercontent.com/40673012/117537412-a142ca00-b03b-11eb-847e-6806ffed4b82.png">
 
 <br />
+
 ### pull
 - 원격 저장소의 변경된 데이터를 가져오는 명령어다. <br />
 
@@ -245,6 +264,7 @@ $ git commit -am "Markdown 튜토리얼 출처 추가"
 <img width="543" alt="스크린샷 2021-05-08 오후 8 47 05" src="https://user-images.githubusercontent.com/40673012/117537858-8de52e00-b03e-11eb-854b-c9299c18f803.png">
 
 <br />
+
 ### rebase
 - 저장소 히스토리의 베이스를 재배치하는 명령어다. <br />
 
@@ -296,6 +316,7 @@ $ git push
 
 
 <br />
+
 ## 명령어표
 |명령어|사용여부|사용위치|
 |--|--|--|
