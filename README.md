@@ -73,7 +73,24 @@ $ git commit -m "Markdown 정리 자료 추가"
 <img width="534" alt="스크린샷 2021-05-08 오후 7 27 13" src="https://user-images.githubusercontent.com/40673012/117535954-65a40200-b033-11eb-840d-e9d41ecb584f.png">
 
 ### tag
-- 커밋을 참조하기 쉽도록 알기 
+- 커밋을 참조하기 쉽도록 알기 쉬운 이름을 붙이는 기능이다.
+
+▶ 커밋에 '1.0.0'이라는 이름의 태그를 붙인다. <br />
+$ git tag -a v1.0.0 -m "version 1.0.0"
+
+<img width="540" alt="스크린샷 2021-05-08 오후 7 31 23" src="https://user-images.githubusercontent.com/40673012/117536068-faa6fb00-b033-11eb-9dc6-2e2ac7f8570e.png">
+
+▶ 태그가 정상적으로 적용되었는지 확인한다. <br />
+$ git show v1.0.0 <br />
+
+<img width="539" alt="스크린샷 2021-05-08 오후 7 31 51" src="https://user-images.githubusercontent.com/40673012/117536079-0b577100-b034-11eb-99a6-fb7b6f58fe6a.png">
+
+### remote
+- 프로젝트의 리모트 저장소(ex.깃헙)를 관리하는 명령어다.
+- git remote: 등록된 리모트 저장소 이름 확인
+- git remote -v: 등록된 저장소 이름과 URL 표시
+- git remote add 리모트이름 경로: 새로운 리모트를 추가한다.
+- git remote show 리모트이름 : 새로운 리모트를 추가한다.
 
 ## 명령어표
 |명령어|사용여부|사용위치|
@@ -84,3 +101,4 @@ $ git commit -m "Markdown 정리 자료 추가"
 |status|o|[status 사용 위치](#status)|
 |commit|o|[commit 사용 위치](#commit)|
 |tag|o|[tag 사용 위치](#tag)|
+|remote|o|[remote 사용 위치](#remote)|
