@@ -318,22 +318,22 @@ $ git push
 <br />
 
 ## 명령어표
-|명령어|사용여부|사용위치|
+|명령어|사용여부|설명위치|
 |--|--|--|
-|config|o|[config 사용 위치](#config)|
-|init|o|[init 사용 위치](#init)|
-|add|o|[add 사용 위치](#add)|
-|status|o|[status 사용 위치](#status)|
-|commit|o|[commit 사용 위치](#commit)|
-|tag|o|[tag 사용 위치](#tag)|
-|remote|o|[remote 사용 위치](#remote)|
-|push|o|[push 사용 위치](#push)|
-|clone|o|[clone 사용 위치](#clone)|
-|branch|o|[branch 사용 위치](#branch)|
-|checkout|o|[checkout 사용 위치](#checkout)|
-|log|o|[log 사용 위치](#log)|
-|reset|o|[reset 사용 위치](#reset)|
-|merge|o|[merge 사용 위치](#merge)|
-|pull|o|[pull 사용 위치](#pull)|
-|rebase|o|[rebase 사용 위치](#rebase)|
+|config|o|[config 설명 위치](#config)|
+|init|o|[init 설명 위치](#init)|
+|add|o|[add 설명 위치](#add)|
+|status|o|[status 설명 위치](#status)|
+|commit|o|[commit 설명 위치](#commit)|
+|tag|o|[tag 설명 위치](#tag)|
+|remote|o|[remote 설명 위치](#remote)|
+|push|o|[push 설명 위치](#push)|
+|clone|o|[clone 설명 위치](#clone)|
+|branch|o|[branch 설명 위치](#branch)|
+|checkout|o|[checkout 설명 위치](#checkout)|
+|log|o|[log 설명 위치](#log)|
+|reset|o|[reset 설명 위치](#reset)|
+|merge|o|[merge 설명 위치](#merge)|
+|pull|o|[pull 설명 위치](#pull)|
+|rebase|o|[rebase 설명 위치](#rebase)|
 
