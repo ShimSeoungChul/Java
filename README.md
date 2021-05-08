@@ -135,7 +135,7 @@ $ git clone https://github.com/ShimSeoungChul/software-engineering-assignment2.g
 
 <img width="554" alt="스크린샷 2021-05-08 오후 7 53 10" src="https://user-images.githubusercontent.com/40673012/117536620-0647f100-b037-11eb-8cdb-8d8aed1ccc43.png">
 
-▶ 원격 저장소에서 내려 받은 내용이 들어있는 디렉토리로 이동한다.
+▶ 원격 저장소에서 내려 받은 내용이 들어있는 디렉토리로 이동한다. <br />
 $ cd software-engineering-assignment2
 
 <br/>
@@ -198,7 +198,7 @@ $ git log
 
 <br />
 
-▶ 다시 GFM-tutorial.md 파일을 생성하고, 과제1의 GFM 설명 내용을 입력한다.
+▶ 다시 GFM-tutorial.md 파일을 생성하고, 과제1의 GFM 설명 내용을 입력한다. <br />
 $ touch GFM-tutorial.md 
 
 
@@ -266,7 +266,7 @@ $ git commit -am "Markdown 튜토리얼 출처 추가"
 <br />
 
 ### rebase
-- 저장소 히스토리의 베이스를 재배치하는 명령어다. <br />
+- 저장소 히스토리의 베이스를 재배치하는 명령어다. <br /> <br />
 
 ▶ 앗! 지금 생각하니 추가할 출처가 한 개 더 있었다. README.md 파일에 새로운 내용을 추가하고, 다시 스테이징 & 커밋 작업을 한다. <br />
 
@@ -299,8 +299,8 @@ $ git merge README.md수정 <br />
 <br />
 
 ▶ 마지막으로 Markdown-tutorial.md 파일을 생성하고,README.md 파일의 내용을 복사한다. 그리고 README.md 파일 내용을 지금까지 작성한 git 명령어에 대한 보고서 내용으로 변경한다. <br />
-$ cp README.md Markdown-tutorial.md
-$ git add -A
+$ cp README.md Markdown-tutorial.md <br />
+$ git add -A <br />
 $ git commit -m "최종 커밋"
 
 <img width="701" alt="스크린샷 2021-05-08 오후 9 02 47" src="https://user-images.githubusercontent.com/40673012/117538348-bec66280-b040-11eb-8206-be3d78d126da.png">
