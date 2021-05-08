@@ -106,7 +106,7 @@ $ git show v1.0.0 <br />
 - git remote show 리모트이름 : 모든 리모트 경로의 branch와 정보를 표시한다.
 - git remote rm 리모트이름: 리모트 경로를 제거한다.
 
-▶ 파일을 관리할 원격 저장소를 추가한다.
+▶ 파일을 관리할 원격 저장소를 추가한다. <br/>
 $ git remote add origin https://github.com/ShimSeoungChul/software-engineering-assignment2.git
 
 
@@ -120,7 +120,7 @@ $ git push -u origin master
 
 <img width="539" alt="스크린샷 2021-05-08 오후 7 49 24" src="https://user-images.githubusercontent.com/40673012/117536536-7efa7d80-b036-11eb-93eb-86eaadff0e25.png">
 
-▶  원격 저장소(https://github.com/ShimSeoungChul/software-engineering-assignment2)로 이동하면, 다음과 같이 변경 사항이 반영된 걸 확인할 수 있다.
+▶ 원격 저장소 (https://github.com/ShimSeoungChul/software-engineering-assignment2) 로 이동하면, 다음과 같이 변경 사항이 반영된 걸 확인할 수 있다.
 
 <img width="538" alt="스크린샷 2021-05-08 오후 7 52 06" src="https://user-images.githubusercontent.com/40673012/117536602-def12400-b036-11eb-853a-e44f7a470efd.png">
 
