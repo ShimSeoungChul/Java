@@ -97,9 +97,66 @@ $ git show v1.0.0 <br />
 $ git remote add origin https://github.com/ShimSeoungChul/software-engineering-assignment2.git
 
 ### push
--
+- 원격 저장소에 코드 변경사항을 업로드하는 명령어다.
 
-▶  
+▶  변경된 내용을 원격 저장소에 반영한다. <br />
+$ git push -u origin master 
+
+<img width="539" alt="스크린샷 2021-05-08 오후 7 49 24" src="https://user-images.githubusercontent.com/40673012/117536536-7efa7d80-b036-11eb-93eb-86eaadff0e25.png">
+
+▶  원격 저장소(https://github.com/ShimSeoungChul/software-engineering-assignment2)로 이동하면, 다음과 같이 변경 사항이 반영된 걸 확인할 수 있다.
+
+<img width="538" alt="스크린샷 2021-05-08 오후 7 52 06" src="https://user-images.githubusercontent.com/40673012/117536602-def12400-b036-11eb-853a-e44f7a470efd.png">
+
+### clone
+- 클라이언트 상에 아무것도 없을 때 서버의 프로젝트를 내려받는 명령어다.
+
+▶ 원격 저장소에 저장된 내용을 다른 개발자와 함께 수정한다고 가정하자. 가장 먼저 원격 저장소에 저장된 내용을 내려받아야 할 것이다. 이떄, clone 명령어를 사용할 수 있다.
+
+$ git clone https://github.com/ShimSeoungChul/software-engineering-assignment2.git <br />
+
+<img width="554" alt="스크린샷 2021-05-08 오후 7 53 10" src="https://user-images.githubusercontent.com/40673012/117536620-0647f100-b037-11eb-8cdb-8d8aed1ccc43.png">
+
+▶ 원격 저장소에서 내려 받은 내용이 들어있는 디렉토리로 이동한다.
+$ cd software-engineering-assignment2
+
+### branch
+- 브랜치는 버전 관리 시스템에서 나무 가지(브랜치)처럼 여러 갈래로 퍼지는 데이터 흐름을 말한다.
+- branch 명령어는 이러한 분기(브랜치)를 관리하는 역할을 한다.
+
+▶ 저장소에 GFM에 대한 튜토리얼을 추가한다. 해당 작업을 진행할 gfm 브랜치를 생성한다. <br />
+
+$ git branch gfm
+
+### checkout
+- 브램치를 전환하는 명령어다.
+
+▶ gfm 브랜치로 전환한다. <br />
+$ git checkout gfm
+
+<img width="547" alt="스크린샷 2021-05-08 오후 8 00 24" src="https://user-images.githubusercontent.com/40673012/117536778-08f71600-b038-11eb-92c8-8383efd39f34.png">
+
+
+▶ GFM-tutorial.md 파일을 생성하고, '오타'라는 내용을 저장한다. <br />
+$ touch GFM-tutoral.md 
+
+<img width="535" alt="스크린샷 2021-05-08 오후 8 02 40" src="https://user-images.githubusercontent.com/40673012/117536836-58d5dd00-b038-11eb-9f52-f1db4390cabe.png">
+
+▶ 해당 파일을 스테이징하고, 커밋한다.  <br />
+$ git add GFM-tutorial.md <br />
+$ git commit -m "GFM 튜토리얼 추가" <br />
+
+<img width="541" alt="스크린샷 2021-05-08 오후 8 04 37" src="https://user-images.githubusercontent.com/40673012/117536887-9f2b3c00-b038-11eb-8253-4e2ca7b0f244.png">
+
+### log
+- 저장소의 커밋 히스토리를 조회한다.
+
+▶ 지금까지 커밋 결과가 정상적으로 반영되었는지 확인한다. 
+
+$ git log
+
+
+### reset 
 
 ## 명령어표
 |명령어|사용여부|사용위치|
@@ -112,3 +169,8 @@ $ git remote add origin https://github.com/ShimSeoungChul/software-engineering-a
 |tag|o|[tag 사용 위치](#tag)|
 |remote|o|[remote 사용 위치](#remote)|
 |push|o|[push 사용 위치](#push)|
+|clone|o|[clone 사용 위치](#clone)|
+|branch|o|[branch 사용 위치](#branch)|
+|checkout|o|[checkout 사용 위치](#checkout)|
+|log|o|[log 사용 위치](#log)|
+|reset|o|[reset 사용 위치](#reset)|
