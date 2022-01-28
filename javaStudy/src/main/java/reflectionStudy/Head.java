@@ -1,0 +1,4 @@
+package reflectionStudy;
+
+interface Head {
+}
